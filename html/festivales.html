@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    
+    <title>Unique Trips</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- css -->
+
+    <link rel="stylesheet" href="../css/paquetes.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"><span>U</span>nique Trips</a>
+
+    <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="informacion.html">Información</a>
+        <a href="paquetes.html">Paquetes</a>
+        <a href="festivales.html">Festivales</a>
+        <a href="experiencias.html">Experiencias</a>
+        <a href="contacto.html">contacto</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+    
+    </header>
+
+
+    <!-- login form -->
+    <section>
+        <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+
+            <form action="" id="formularioLogin">
+                    <h3>login</h3>       
+                    <input type="email" class="box" name="correo" placeholder="ingresa tu email">
+                    <input type="password" class="box" name="contrasena" placeholder="ingresa tu contraseña">
+                    <input type="submit" value="ingresa ahora" name="enviar" class="btn">
+                    <input type="checkbox" id="remember" name="recuerdame">
+                    <label for="remember">recuerdame</label>
+                    <p>¿olvidaste tu contraseña? <a href="registro.html">click aqui</a></p>
+                    <p> ¿no tienes cuenta? <a href="registro.html">registrarse ahora</a></p>
+            </form>
+        </div>
+    </section>
+
+    <main>
+
+        <div class="contenedor-limite-paquetes contenedor-relative margin-top-conteiner">
+            <div class="contenedor-flex-main">
+                <aside>
+                    <img src="../images/FDD-PARANA.jpg" alt="viajar fiesta de disfraces Paraná, Entre Rios, Argentina" class="img-fdd">
+                    <h3 class="contenedor-absolute-ventana"><a href="fddparana.html" class="letra-ventana">ENTRAR</a></h3>
+                </aside>
+
+                <section class="text-paquetes">
+                    <h3 class="h3-paquetes">FDD PARANÁ</h3>
+                    <ul class="list-column-flex">
+                        <li class="padding-paquetes">Veni a disfurtar con nosotros de la fiesta N°1 de disfraces de Sudamérica.</li>
+                        <li class="padding-paquetes">Grupos de 10 a 30 personas </li>                               
+                        <li class="padding-paquetes">Hotel + Viaje + Entrada.</li> 
+                        <li class="padding-paquetes todo-incluido">TODO INCLUIDO.</li>  
+                    </ul> 
+                    <h3 class="h3-paquetes precio">$15.000</h3>
+                    <h4 class="contenedor-absolute">18-30</h4>
+                </section>
+            </div>
+        </div>
+
+        <div class="contenedor-limite-paquetes contenedor-relative">
+            <div class="contenedor-flex-main">    
+                <aside>
+                    <img src="../images/oktoberfest.jpg" alt="Fiesta de la cerveza, Oktoberfest, Villa general Belgrano, Córdoba" class="img-oktoberfest">
+                    <h3 class="contenedor-absolute-ventana"><a href="oktoberfest.html" class="letra-ventana">ENTRAR</a></h3>
+                </aside>
+
+                <section class="text-paquetes">
+                    <h3 class="h3-paquetes">Oktoberfest</h3>
+                                        <ul class="list-column-flex">
+                                            <li class="padding-paquetes">Pasá un finde en Villa General Belgrano, tomando cerveza, conociendo gente y pasandola bien.</li>
+                                            <li class="padding-paquetes">Grupos de 15 a 30 personas.</li>                               
+                                            <li class="padding-paquetes">Hotel + Excursiones + Boliches + Entrada al Predio + Viaje.</li> 
+                                            <li class="padding-paquetes todo-incluido">TODO INCLUIDO.</li>  
+                                        </ul>    
+                    <h3 class="h3-paquetes">$15.000</h3>
+                    <h4 class="contenedor-absolute">18-35</h4>
+                </section>
+            </div>
+        </div>
+
+        <div class="contenedor-limite-paquetes contenedor-relative">
+            <div class="contenedor-flex-main">     
+                <aside>
+                    <img src="../images/tomorrowland.jpg" alt="Viajar a la tomorrowland, fiesta electrónica, Bélgica" class="img-paquetes">
+                    <h3 class="contenedor-absolute-ventana"><a href="tomorrowland.html" class="letra-ventana">ENTRAR</a></h3>
+                </aside>
+
+                <section class="text-paquetes">
+                    <h3 class="h3-paquetes">Tomorrowland</h3>
+                    <ul class="list-column-flex">
+                        <li class="padding-paquetes">Nos vamos a Bélgica, a la fiesta mas grande de electrónica del mundo.</li>
+                        <li class="padding-paquetes">Grupos de 15 a 30 personas.</li>                               
+                        <li class="padding-paquetes">Entrada al predio + Estadía + viaje.</li> 
+                        <li class="padding-paquetes todo-incluido">TODO INCLUIDO</li>  
+                    </ul>
+                    <h3 class="h3-paquetes">$140.000</h3>
+                    <h4 class="contenedor-absolute">21-30</h4>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>sobre nosotros</h3>
+                <p>Para nosotros, viajar es mucho más que visitar un nuevo destino: es hacer nuevos amigos y vivir momentos inolvidables. Por eso nos gustaría compartir esta experiencia con VOS.</p>
+            </div>
+            <div class="box padding-footer">
+                <h3>sucursales</h3>
+                <a href="#">Buenos Aires</a>
+                <a href="#">Córdoba</a>
+                <a href="#">Santa Fé</a>
+            </div>
+     
+            <div class="box">
+                <h3>Sígueme</h3>
+                <a href="https://www.facebook.com/montes.ariel3">facebook</a>
+                <a href="https://www.instagram.com/arieelmontes/">instagram</a>
+                <a href="#">Whatsapp</a>
+                <a href="https://www.linkedin.com/in/montesariel/">linkedin</a>
+            </div>
+    
+        </div>
+    
+        <h1 class="credit"> creado por <span> Ariel Montes </span> | todos los derechos reservados &copy; </h1>
+    
+    </section>
+
+
+
+    <!-- custom js file link  -->
+<script src="../js/script.js"></script>
+</body>
+</html>

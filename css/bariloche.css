@@ -1,0 +1,7 @@
+.home {
+    padding:1rem;
+    border-radius: 3rem;
+    background-image: url(../images/bariloche-portada1.jpg);
+    position: relative;
+    /* top:10rem; */
+  } 

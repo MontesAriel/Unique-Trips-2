@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Trips</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    
+<!-- header  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"><span>U</span>nique Trips</a>
+
+    <nav class="navbar">
+        <a href="informacion.html">Información</a>
+        <a href="paquetes.html">Paquetes</a>
+        <a href="festivales.html">Festivales</a>
+        <a href="experiencias.html">Experiencias</a>
+        <a href="contacto.html">contacto</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search" id="btnLabel"></label>
+    </form>
+
+</header>
+
+<!-- header -->
+
+<!-- login form -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="" id="formularioLogin">
+            <h3>login</h3>       
+            <input type="email" class="box" name="correo" placeholder="ingresa tu email">
+            <input type="password" class="box" name="contrasena" placeholder="ingresa tu contraseña">
+            <input type="submit" value="ingresa ahora" name="enviar" class="btn">
+            <input type="checkbox" id="remember" name="recuerdame">
+            <label for="remember">recuerdame</label>
+            <p>¿olvidaste tu contraseña? <a href="registro.html">click aqui</a></p>
+            <p> ¿no tienes cuenta? <a href="registro.html">registrarse ahora</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+        <div class="content">
+            <h3>La aventura vale la pena.</h3>
+            <p>Viví la experiencia de viajar de manera grupal.</p>
+            <a href="informacion.html" class="btn">descubrir más</a>
+        </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>v</span>
+        <span>i</span>
+        <span>a</span>
+        <span>j</span>
+        <span>a</span>
+        <span class="space"></span>
+        <span>a</span>
+        <span>h</span>
+        <span>o</span>
+        <span>r</span>
+        <span>a</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="../images/formulario2.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>donde queres ir</h3>
+            <div class="container-select">
+                <select name="select-paquetes" id="select-paquetes">
+                    <option value="mendoza">Mendoza</option>
+                    <option value="roma">Roma</option>
+                    <option value="neuquen">Neuquén</option>
+                    <option value="salta">Salta</option>
+                    <option value="bariloche">Bariloche</option>
+                    <option value="venecia">Venecia</option>
+                </select>
+            </div>
+            </div>
+            <div class="inputBox">
+                <h3>número de personas</h3>
+                <input type="number" placeholder="" min="1">
+            </div>
+            <div class="inputBox">
+                <h3>ida</h3>
+                <input type="date">
+            </div>
+            <!-- <div class="inputBox"> 
+                <h3>vuelta</h3>
+                <input type="date">
+            </div> -->
+            <input type="submit" class="btn btnPaquete" id="btnPaquete" value="Entrar">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h2 class="heading">
+        <span>d</span>
+        <span>e</span>
+        <span>s</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>a</span>
+        <span>d</span>
+        <span>o</span>
+        <span>s</span>
+    </h2>
+
+    <div class="box-container">
+
+        <div class="box" id="rating">
+            <img src="../images/coliseo-roma.jpg" alt="viajar a roma, Italia">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> roma </h3>
+                <p>7 días recorriendo la ciudad llena de historias.</p>
+                
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $260.000 <span>$300.000</span> </div>
+                <a href="roma.html" class="btn">más información</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/canal-venecia.jpg" alt="Viajar a los canales de Venecia, Italia">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> venecia </h3>
+                <p>7 días, 6 noches paseando por los canales de Venecia.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $240.000 <span>$250.000</span> </div>
+                <a href="venecia.html" class="btn">más información</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/villalaangostura.jpg" alt="Viajar a Neuquén, Argentina">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Neuquén </h3>
+                <p>7 días llenos de paisajes, actividades y buena compañia</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $120.000 <span>$140.000</span> </div>
+                <a href="neuquen.html" class="btn">más información</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/brc.jpg" alt="Viajar a Ciudad Bariloche, Río Negro">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Bariloche </h3>
+                <p>7 días que vas a recorrer la ciudad como jamas lo hiciste.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $155.000 <span>$180.000</span> </div>
+                <a href="bariloche.html" class="btn">más información</a>
+            </div>
+        </div>
+
+    
+    </div>
+
+</section>
+
+<section class="packages" id="packages">
+
+    <h2 class="heading">
+        <span>f</span>
+        <span>e</span>
+        <span>s</span>
+        <span>t</span>
+        <span>i</span>
+        <span>v</span>
+        <span>a</span>
+        <span>l</span>
+        <span>e</span>
+        <span>s</span>
+    </h2>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="../images/tomorrowland.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> tomorrowland </h3>
+                <p>Nos vamos a Bélgica, a la fiesta mas grande de electrónica del mundo.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $140.000 <span>$150.000</span> </div>
+                <a href="tomorrowland.html" class="btn">más información</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/parana-fiesta.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> FDD paraná </h3>
+                <p>Veni a disfurtar con nosotros de la fiesta N°1 de disfraces de Sudamérica. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $15.000 <span>$20.000</span> </div>
+                <a href="fddparana.html" class="btn">más información</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../images/oktoberfest.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> oktoberfest </h3>
+                <p>Un finde en Villa General Belgrano, tomando cerveza, conociendo gente y pasandola bien.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $15.000 <span>$20.000</span> </div>
+                <a href="oktoberfest.html" class="btn">más información</a>
+            </div>
+        </div> 
+
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h3 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>i</span>
+        <span>o</span>
+        <span>s</span>
+    </h3>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Alojamiento</h3>
+            <p>Alojamiento en hoteles de 3 o 4 estrellas.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Desayuno</h3>
+            <p>Desayuno incluido.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Coordinadores</h3>
+            <p>Te van a esta acompañando a lo largo de todo el viaje y van hacer que tus vacaciones sean inolvidables!</p>
+        </div>
+       
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Transporte</h3>
+            <p>Micro exclusivo de la empresa.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Excursiones</h3>
+            <p>Todo paquete viene con excursiones incluidas.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h3 class="heading">
+        <span>e</span>
+        <span>x</span>
+        <span>p</span>
+        <span>e</span>
+        <span>r</span>
+        <span>i</span>
+        <span>e</span>
+        <span>n</span>
+        <span>c</span>
+        <span>i</span>
+        <span>a</span>
+        <span>s</span>
+    </h3>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/mujer.jpg" alt="">
+                    <h4 class="letra-nombres">Victoria</h4>
+                    <p>Viajé 3 veces con Unique Trips, cada destino fue una experiencia única. Además de los viajes, conocí personas en las cuales seguimos compartiendo momentos.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/hombre.webp" alt="">
+                    <h4 class="letra-nombres">Julian</h4>
+                    <p>Primera vez que viajo y fué increible. Tanto las excursiones y los coordinadores fueron todo lo que esperaba y más. Espero que el año que viene pueda viajar de nuevo con Unique Trips!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/mujer-sonriendo.webp" alt="">
+                    <h4 class="letra-nombres">Martina</h4>
+                    <p>Conocí gente hermosa, momentos unicos e inolvidables. Si tenes ganas de reirte todo el tiempo y tener unas vacaciones diferentes esta es la empresa que estabas buscando!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+ 
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h3 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span>o</span>
+    </h3>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="../images/app2.jpg" alt="">
+        </div>
+
+        <form action="" id="form">
+            <div class="inputBox">
+                <input type="text" name="name" placeholder="nombre" required>
+                <input type="email" name="email" placeholder="email" required>
+            </div>
+            <!-- <div class="inputBox">
+                <input type="number" name="" placeholder="número de celular">
+                <input type="text" name="" placeholder="asunto">
+            </div> -->
+            <textarea placeholder="mensaje..." name="message" id="" cols="30" rows="10" required></textarea>
+            <input type="submit" class="btn" value="enviar">
+        </form>
+        <a href="mailto:montesarieel@gmail.com" id="gmail">mail</a>
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>sobre nosotros</h3>
+            <p class="p-media">Para nosotros, viajar es mucho más que visitar un nuevo destino: es hacer nuevos amigos y vivir momentos inolvidables. Por eso nos gustaría compartir esta experiencia con VOS.</p>
+        </div>
+        <div class="box padding-footer">
+            <h3>sucursales</h3>
+            <a href="#">Buenos Aires</a>
+            <a href="#">Córdoba</a>
+            <a href="#">Santa Fé</a>
+        </div>
+ 
+        <div class="box">
+            <h3>Sígueme</h3>
+            <a href="https://www.facebook.com/montes.ariel3">facebook</a>
+            <a href="https://www.instagram.com/arieelmontes/">instagram</a>
+            <a href="#">Whatsapp</a>
+            <a href="https://www.linkedin.com/in/montesariel/">linkedin</a>
+        </div>
+
+    </div>
+
+    <h2 class="credit"> creado por <span> Ariel Montes </span> | todos los derechos reservados &copy; </h2>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="../js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</body>
+</html>

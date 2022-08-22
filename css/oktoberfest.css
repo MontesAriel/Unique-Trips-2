@@ -1,0 +1,7 @@
+.home {
+    padding:1rem;
+    border-radius: 3rem;
+    background-image: url(../images/oktoberfest-portada.jpg);
+    position: relative;
+    /* top:10rem; */
+  } 

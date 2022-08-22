@@ -1,0 +1,16 @@
+.home {
+    padding:1rem;
+    border-radius: 3rem;
+    background-image: url(../images/roma-portada.webp);
+    position: relative;
+    /* top:10rem; */
+  }   
+
+
+  .swal2-title {
+    font-size: 28px !important;
+  }
+
+  .swal2-styled.swal2-confirm {
+    font-size: 15px !important;
+  }

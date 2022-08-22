@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Trips</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    <!-- header  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"><span>U</span>nique Trips</a>
+
+    <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="informacion.html">Información</a>
+        <a href="paquetes.html">Paquetes</a>
+        <a href="festivales.html">Festivales</a>
+        <a href="experiencias.html">Experiencias</a>
+        <a href="contacto.html">contacto</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- login form -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="" id="formularioLogin">
+            <h3>login</h3>       
+            <input type="email" class="box" name="correo" placeholder="ingresa tu email">
+            <input type="password" class="box" name="contrasena" placeholder="ingresa tu contraseña">
+            <input type="submit" value="ingresa ahora" name="enviar" class="btn">
+            <input type="checkbox" id="remember" name="recuerdame">
+            <label for="remember">recuerdame</label>
+            <p>¿olvidaste tu contraseña? <a href="registro.html">click aqui</a></p>
+            <p> ¿no tienes cuenta? <a href="registro.html">registrarse ahora</a></p>
+    </form>
+
+</div>
+
+<!-- header -->
+<main>
+    <h3 class="heading margin-top-title">
+        <span>P</span>
+        <span>r</span>
+        <span>e</span>
+        <span>g</span>
+        <span>u</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>s</span>
+        <span class="space"></span>
+        <span>f</span>
+        <span>r</span>
+        <span>e</span>
+        <span>c</span>
+        <span>u</span>
+        <span>e</span>
+        <span>n</span>
+        <span>t</span>
+        <span>e</span>
+        <span>s</span>
+    </h3>
+
+    <!-- <i class="fa-solid fa-angle-up"></i>
+    <i class="fa-solid fa-angle-down"></i> -->
+    <div class="preguntas-container">
+        <div class="container">
+            <h4>acerca de la dinamica de nuestros tours</h4>
+            <button class="acordeon">¿Hay mas gente que viaje sola?</button>
+            <div class="panel">
+                <p>Si la gran mayoría de nuestros pasajeros viajan solos o solas, por eso mismo realizamos encuentros previos para conocernos.</p>
+            </div>
+
+            <button class="acordeon">¿Las habitaciones se comparten con personas del mismo sexo o son mixtas? </button>
+            <div class="panel">
+                <p>Con quien compartir habitación lo defines tú. Siempre tratamos que se dividan por sexo, pero lo definen los mismos pasajeros luego de conocerse en el encuentro pre-viaje.</p>
+            </div>
+
+
+            <button class="acordeon">En las salidas dentro de Argentina que son en bus ¿Se puede cambiar el bus por avión? </button>
+            <div class="panel">
+                <p>No es posible, ya que trabajamos con cupos limitados.</p>
+            </div>           
+        </div>
+
+        <div class="container">
+            <h4>Acerca de reservas y pagos</h4>
+            <button class="acordeon">¿Se congela el precio al reservar?</button>
+            <div class="panel">
+                <p>No, se congela una vez abonado el total.</p>
+            </div>
+
+            <button class="acordeon">¿Puedo guardar mi lugar y después terminar de pagar?</button>
+            <div class="panel">
+                <p>Podes reservar con el 30% y, depende el destino, tendrás tiempo hasta 30 o 60 días antes de la salida para saldar el total.</p>
+            </div>
+
+            <button class="acordeon">¿Puedo cancelar o re-programar el viaje?</button>
+            <div class="panel">
+                <p>Si, siempre teniendo en cuenta las penalidades indicadas en nuestros términos y condiciones.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h4>Acerca de los protocolos: Coronavirus Covid-19</h4>
+            <button class="acordeon">¿Qué pasa si tengo COVID y no puedo viajar?</button>
+            <div class="panel">
+                <p>En caso de ser positivo en COVID-19 haremos todo lo posible por gestionar la reprogramación para que puedas sumarte en un futuro viaje. En caso de no poder reprogramar, siempre que sea posible de acuerdo a las politicas de los operadores, gestionaremos una devolución.</p>
+            </div>
+
+            <button class="acordeon">¿La asistencia médica cubre el contagio de COVID?</button>
+            <div class="panel">
+                <p>¡Sí¡ Los paquetes que incluyen la asistencia médica garantizan la cobertura a pesar de un resultado positivo de COVID-19. En los tours donde no incluimos la asistencia, recomendamos contratar una cobertura adecuada.</p>
+            </div>
+
+            <button class="acordeon">¿Qué pasa si el viaje es cancelado por la pandemia?</button>
+            <div class="panel">
+                <p>Si el tour es cancelado a causa de medidas de prevención tomadas por las entidades gubernamentales, ya sea locales como del destino, el mismo será postergado y re-programado para una nueva fecha prudente y segura para todo el grupo. En caso de no poder viajar en esta nueva fecha, se analizará tu caso puntual.</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h3 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span>o</span>
+    </h3>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="../images/app2.jpg" alt="">
+        </div>
+
+        <form action="" id="form">
+            <div class="inputBox">
+                <input type="text" name="name" placeholder="nombre" required>
+                <input type="email" name="email" placeholder="email" required>
+            </div>
+            <!-- <div class="inputBox">
+                <input type="number" name="" placeholder="número de celular">
+                <input type="text" name="" placeholder="asunto">
+            </div> -->
+            <textarea placeholder="mensaje..." name="message" id="" cols="30" rows="10" required></textarea>
+            <input type="submit" class="btn" value="enviar">
+        </form>
+        <a href="mailto:montesarieel@gmail.com" id="gmail">mail</a>
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>sobre nosotros</h3>
+            <p>Para nosotros, viajar es mucho más que visitar un nuevo destino: es hacer nuevos amigos y vivir momentos inolvidables. Por eso nos gustaría compartir esta experiencia con VOS.</p>
+        </div>
+        <div class="box padding-footer">
+            <h3>sucursales</h3>
+            <a href="#">Buenos Aires</a>
+            <a href="#">Córdoba</a>
+            <a href="#">Santa Fé</a>
+        </div>
+ 
+        <div class="box">
+            <h3>Sígueme</h3>
+            <a href="https://www.facebook.com/montes.ariel3">facebook</a>
+            <a href="https://www.instagram.com/arieelmontes/">instagram</a>
+            <a href="#">Whatsapp</a>
+            <a href="https://www.linkedin.com/in/montesariel/">linkedin</a>
+        </div>
+
+    </div>
+
+    <h2 class="credit"> creado por <span> Ariel Montes </span> | todos los derechos reservados &copy; </h2>
+
+</section>
+
+
+<!-- custom js file link  -->
+<script src="../js/contacto.js"></script>
+
+    
+</body>
+</html>

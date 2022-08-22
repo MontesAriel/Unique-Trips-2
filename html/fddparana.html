@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bariloche.css">
+
+    
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+     <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+
+     <!-- css -->
+     <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="../css/viajes.css">
+     <link rel="stylesheet" href="../css/fddparana.css">
+ 
+    <title>Unique Trips</title>
+</head>
+
+<body>
+
+    <!-- header  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"><span>U</span>nique Trips</a>
+
+    <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="informacion.html">Información</a>
+        <a href="paquetes.html">Paquetes</a>
+        <a href="festivales.html">Festivales</a>
+        <a href="experiencias.html">Experiencias</a>
+        <a href="contacto.html">contacto</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header -->
+
+<!-- login form -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="" id="formularioLogin">
+            <h3>login</h3>       
+            <input type="email" class="box" name="correo" placeholder="ingresa tu email">
+            <input type="password" class="box" name="contrasena" placeholder="ingresa tu contraseña">
+            <input type="submit" value="ingresa ahora" name="enviar" class="btn">
+            <input type="checkbox" id="remember" name="recuerdame">
+            <label for="remember">recuerdame</label>
+            <p>¿olvidaste tu contraseña? <a href="registro.html">click aqui</a></p>
+            <p> ¿no tienes cuenta? <a href="registro.html">registrarse ahora</a></p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <div  class="card-paquete-absolute container-relative"> 
+        <div>
+            <div>
+                <h3 class="h3-paquetes"> Fdd Paraná
+                    <!--Load data with json-->
+                </h3>
+                </div>
+                <div>
+                    <ul class="lista-columna-flex">
+                        <li class="card-padding-paquetes">Veni a disfurtar con nosotros de la fiesta N°1 de disfraces de Sudamérica.</li>
+                        <li class="card-padding-paquetes">Grupos de 10 a 30 personas.</li>                               
+                        <li class="card-padding-paquetes">Hotel + Viaje + Entrada.</li> 
+                        <li class="card-padding-paquetes todo-incluido">TODO INCLUIDO</li>  
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="contenedor-absolute">21-35</h4>
+                </div>
+                <div>
+                    <h3 class="h3-paquetes container-precio">$15.000<i class="fas fa-shopping-cart"></i></h3>
+                </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Carrito -->
+
+<div id="carrito" class="card-carrito-absolute container-relative">
+    <h3 class="h3-paquetes"> Carrito </h3>
+    <ul class="lista-columna-flex">
+        <li class="card-padding-paquetes">Viajamos a la Fiesta de Disfraces!</li>
+        <li class="card-padding-paquetes">Hasta 18 cuotas sin interés</li>                               
+        
+        <li class="card-padding-paquetes todo-incluido-carrito">TODO INCLUIDO</li>  
+    </ul>
+    <button class=" card-padding-paquetes comprar">Comprar<i class="fas fa-shopping-cart"></i></button>
+    <i class="fas fa-times close-carrito"></i>
+</div>
+
+<!-- Carrito -->
+
+
+    <main>
+        <div class="contenedor-limite-paquetes">
+        <div class="contenedor-flex-main">    
+            <section class="text-paquetes">
+                <h2>Hotel Exedra</h2>
+                <ul class="list-column-flex">
+                    <li class="padding-paquetes"> Estarás a poca distancia del predio. </li>
+                    <li class="padding-paquetes"> Tendremos una fiesta el dia anterior a la fiesta de disfraces.</li>
+                    <li class="padding-paquetes"> El camping tiene vestuarios, pileta, carpas.</li>
+                    <li class="padding-paquetes"> Habrá diferentes actividades para los que esten interesados</li>
+                </ul>
+        </section>
+        <aside>
+            <div class="carrousel-container">
+                <div class="your-class">
+                    <div>
+                        <img src="../images/camping-fdd.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../images/camping-fdd1.jpg">
+                    </div>
+                </div>
+            </div>
+            </aside>
+        </div>
+        </div>
+
+
+<div class="contenedor-limite-paquetes">
+    <div class="contenedor-flex-main">    
+        <section class="text-paquetes">
+            <h2>Predio Fiesta</h2>
+                                <ul class="list-column-flex">
+                                    <li class="padding-paquetes">Incluye entrada VIP para poder ingresar a las diferentes carpas y tener una experiencia única.</li>
+                                    <li class="padding-paquetes"> Salimos desde el camping al predio en micros a las 23:00hs.</li>                               
+                                    <li class="padding-paquetes">Nos reunimos TODOS a las 07:00hs, donde retornamos hacia el camping.</li> 
+                                </ul>    
+        </section>
+        <aside>
+            <div class="carrousel-container">
+                <div class="your-class">
+                    <div>
+                        <img src="../images/PREDIO-PARANA.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../images/PREDIO-PARANA1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+</div>
+
+<section>
+    <div class="container-limit">
+        
+        <h2>INFORMACIÓN IMPORTANTE</h2>
+        
+        <div class="container-info-importante">
+            <div class="card-info-importante">
+                <div>
+                   <h5>DOCUMENTACIÓN REQUERIDA</h5>
+                </div>
+                <div>
+                     <p>Revisá los posibles requisitos por COVID-19 en el siguiente link → <a href="https://argentina.gob.ar"  class="link-argentina"> Argentina.gob.ar </a></p>
+                </div>
+            </div>
+            
+            <div class="info-importante">       
+                <div class="card-info-importante">
+                    <div>
+                        <h5>MEDIOS DE PAGO</h5> 
+                    </div>
+                    <div>
+                      <h6>Depósito Bancario</h6>  
+                     <p>Para viajes al exterior de Argentina corresponde adicionar 5% de percepción de AFIP RG 3819/2015</p>   
+                        
+                       <h6>Transferencia Bancaria</h6>
+                       <p>Podés descargar los datos de nuestras cuentas en este link. También los podés encontrar en el mail de confirmación al finalizar tu reserva.</p> 
+                        
+                       <h6>MercadoPago</h6>
+                        <p>Costo de procesamiento MercadoPago 4,41% + IVA</p> 
+                        
+                       <h6>Tarjeta de Crédito y Débito</h6>
+                     <p>Cobro telefónico llamando al 5235-3810 Opc. 2. o solicitando un link de pago a tu asesor/a. Aceptamos Visa, Master, Cabal y Amex</p>
+                        
+                        <h6>Paypal</h6>
+                         <p>Pagá en forma segura con saldo disponible en tu cuenta de Paypal o con tarjeta de crédito.</p>   
+                    </div>
+                </div>
+
+                <div class="card-info-importante">
+                    <div>
+                       <h5>PROMOCIONES</h5> 
+                    </div>
+                    <div>                        
+                        <h6>Pre Viaje - Devolución del 50%</h6> 
+                        <p>Recibí una devolución del 50% del valor del viaje para gastar en tus vacaciones o próximos viajes. Consultá el calendario y límites del beneficio.</p>
+                        <h6>Financiación Buenas Vibras</h6>    
+                        <p>Asegurá tu lugar con una seña del 30% y podés completar el resto hasta 30 días antes de la salida. (Pasada la fecha límite de pago deberás abonar el total del paquete).</p>    
+                        <h6>AHORA 6</h6>
+                        <p>Podés pagar tu viaje en 06 cuotas fijas. Promoción válida hasta el 31/01/22. Interés: 7,27%</p> 
+                        <h6>AHORA 12</h6> 
+                        <p>Podés pagar tu viaje en 12 cuotas fijas. Promoción válida hasta el 31/01/22. Interés: 13,90%</p>  
+                        <h6>AHORA 18</h6> 
+                        <p>Podés pagar tu viaje en 18 cuotas fijas. Promoción válida hasta el 31/01/22. Interés: 20,78%</p>  
+                    </div>
+                </div>    
+            </div>  
+        </div>
+    </div>  
+</section>
+
+
+
+</main>
+
+ 
+
+    <!-- footer section  -->
+
+        <footer class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>sobre nosotros</h3>
+                    <p>Para nosotros, viajar es mucho más que visitar un nuevo destino: es hacer nuevos amigos y vivir momentos inolvidables. Por eso nos gustaría compartir esta experiencia con VOS.</p>
+                </div>
+                <div class="box padding-footer">
+                    <h3>sucursales</h3>
+                    <a href="#">Buenos Aires</a>
+                    <a href="#">Córdoba</a>
+                    <a href="#">Santa Fé</a>
+                </div>
+        
+                <div class="box">
+                    <h3>Sígueme</h3>
+                    <a href="https://www.facebook.com/montes.ariel3">facebook</a>
+                    <a href="https://www.instagram.com/arieelmontes/">instagram</a>
+                    <a href="#">Whatsapp</a>
+                    <a href="https://www.linkedin.com/in/montesariel/">linkedin</a>
+                </div>
+
+            </div>
+
+            <h1 class="credit"> creado por <span> Ariel Montes </span> | todos los derechos reservados &copy; </h1>
+
+        </footer>
+
+
+
+
+
+         <!-- custom js file link  -->
+         <script src="../js/paquetes.js"></script>
+         <script src="../js/script.js"></script>
+         
+         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.your-class').slick({
+            infinite: true,
+            slidesToShow: 1,
+            dots: true
+        });
+    });				
+  </script>
+
+
+</body>
+</html>
+
+
+

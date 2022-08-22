@@ -1,0 +1,8 @@
+.home {
+    padding:1rem;
+    border-radius: 3rem;
+    background-image: url(../images/salinas-salta.jpg);
+    position: relative;
+    
+    /* top:10rem; */
+  } 

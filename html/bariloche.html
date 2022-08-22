@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bariloche.css">
+
+    
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+     <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+
+     <!-- css -->
+     <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="../css/viajes.css">
+     <link rel="stylesheet" href="../css/bariloche.css">
+ 
+    <title>Unique Trips</title>
+</head>
+
+<body>
+
+    <!-- header  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"><span>U</span>nique Trips</a>
+
+    <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="informacion.html">Información</a>
+        <a href="paquetes.html">Paquetes</a>
+        <a href="festivales.html">Festivales</a>
+        <a href="experiencias.html">Experiencias</a>
+        <a href="contacto.html">contacto</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header -->
+
+<!-- login form -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="" id="formularioLogin">
+            <h3>login</h3>       
+            <input type="email" class="box" name="correo" placeholder="ingresa tu email">
+            <input type="password" class="box" name="contrasena" placeholder="ingresa tu contraseña">
+            <input type="submit" value="ingresa ahora" name="enviar" class="btn">
+            <input type="checkbox" id="remember" name="recuerdame">
+            <label for="remember">recuerdame</label>
+            <p>¿olvidaste tu contraseña? <a href="registro.html">click aqui</a></p>
+            <p> ¿no tienes cuenta? <a href="registro.html">registrarse ahora</a></p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <div  class="card-paquete-absolute container-relative">
+        <div>
+            <div>
+                <h3 class="h3-paquetes">Bariloche
+                    <!--Load data with json-->
+                </h3>
+            </div>
+            <div>
+                <ul class="lista-columna-flex">
+                    <li class="card-padding-paquetes">7 días que vas a recorrer la ciudad como jamas lo hiciste.</li>
+                    <li class="card-padding-paquetes">Grupos de 5 a 15 personas.</li>                               
+                    <li class="card-padding-paquetes">Hotel + excursiones + viaje.</li> 
+                    <li class="card-padding-paquetes todo-incluido">TODO INCLUIDO</li>  
+                </ul>
+            </div>
+            <div>
+                <h4 class="contenedor-absolute">21-35</h4>
+            </div>
+            <div>
+                <h3 class="h3-paquetes container-precio">$155.000<i class="fas fa-shopping-cart"></i></h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Carrito -->
+
+<div id="carrito" class="card-carrito-absolute container-relative">
+    <h3 class="h3-paquetes"> Carrito </h3>
+    <ul class="lista-columna-flex">
+        <li class="card-padding-paquetes">Viajamos a Bariloche!</li>
+        <li class="card-padding-paquetes">Hasta 18 cuotas sin interés</li>                               
+        
+        <li class="card-padding-paquetes todo-incluido-carrito">TODO INCLUIDO</li>  
+    </ul>
+    <button class=" card-padding-paquetes comprar">Comprar<i class="fas fa-shopping-cart"></i></button>
+    <i class="fas fa-times close-carrito"></i>
+</div>
+
+<!-- Carrito -->
+
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h3 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>i</span>
+        <span>o</span>
+        <span>s</span>
+    </h3>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Alojamiento</h3>
+            <p>Alojamiento en hoteles de 3 o 4 estrellas.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Desayuno</h3>
+            <p>Desayuno incluido.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Coordinadores</h3>
+            <p>Te van a esta acompañando a lo largo de todo el viaje y van hacer que tus vacaciones sean inolvidables!</p>
+        </div>
+       
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Transporte</h3>
+            <p>Micro exclusivo de la empresa.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Excursiones</h3>
+            <p>Todo paquete viene con excursiones incluidas.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+    <main>
+        <div class="contenedor-limite-paquetes">
+        <div class="contenedor-flex-main">    
+            <section class="text-paquetes">
+                    <h2>Hotel Panamericano Bariloche</h2>
+                    <ul class="list-column-flex">
+                        <li class="padding-paquetes-p"> Situado al lado del majestuoso lago Nahuel Huapi, ofrece habitaciones con vistas al lago y a las montañas y baño privado. El hotel alberga un spa, gimnasio y bañera de hidromasaje. </li>
+                        <li class="padding-paquetes-p"> El restaurante La Cave sirve fondues de queso bajo petición. El piano bar del vestíbulo propone cócteles, bebidas, carnes ahumadas de la Patagonia y una amplia selección de vinos de la bodega Zuccardi.</li>
+                        <li class="padding-paquetes-p"> El spa del hotel incluye piscina climatizada, gimnasio, sauna y bañera de hidromasaje. Entre las instalaciones del Panamericano Bariloche destacan el casino, la sala de juegos y el club infantil.</li>
+                        <li class="padding-paquetes-p"> El personal del hotel organiza una amplia variedad de actividades de ocio en plena naturaleza, como ciclismo y paseos en kayak.</li>
+                    </ul>
+            </section>
+            <aside>
+                <div class="carrousel-container">
+                    <div class="your-class">
+                        <div>
+                            <img src="../images/bariloche-hotel.jpg" alt="">
+                        </div>
+                         <div>
+                            <img src="../images/bariloche-hotel1.jpg">
+                        </div>
+                        <div>
+                            <img src="../images/hotel-bariloche.jpg">
+                        </div> 
+                    </div>
+                </div>
+            </aside>
+        </div>
+        </div>
+
+
+<div class="contenedor-limite-paquetes">
+    <div class="contenedor-flex-main">    
+        <section class="text-paquetes">
+            <h2>Excursiones</h2>
+                                <ul class="list-column-flex">
+                                    <li class="padding-paquetes">Circuito chico - Lagos y Montañas</li>
+                                    <li class="padding-paquetes"> Rafting por Río Manso y Kayak en Lago Gutierrez</li>                               
+                                    <li class="padding-paquetes">Cabalgatas en la Estepa Patagónica</li> 
+                                </ul>    
+        </section>
+        <aside>
+            <div class="carrousel-container">
+                <div class="your-class">
+                    <div>
+                        <img src="../images/excursion-bariloche0.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../images/excursion-bariloche.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="../images/excursion-bariloche1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+</div>
+
+<section>
+    <div class="container-limit">
+        
+        <h2>INFORMACIÓN IMPORTANTE</h2>
+        
+        <div class="container-info-importante">
+            <div class="card-info-importante">
+                <div>
+                   <h5>DOCUMENTACIÓN REQUERIDA</h5>
+                </div>
+                <div>
+                     <p>Revisá los posibles requisitos por COVID-19 en el siguiente link → <a href="https://argentina.gob.ar"  class="link-argentina"> Argentina.gob.ar </a></p>
+                </div>
+            </div>
+            
+            <div class="info-importante">       
+                <div class="card-info-importante">
+                    <div>
+                        <h5>MEDIOS DE PAGO</h5> 
+                    </div>
+                    <div>
+                      <h6>Depósito Bancario</h6>  
+                     <p>Para viajes al exterior de Argentina corresponde adicionar 5% de percepción de AFIP RG 3819/2015</p>   
+                        
+                       <h6>Transferencia Bancaria</h6>
+                       <p>Podés descargar los datos de nuestras cuentas en este link. También los podés encontrar en el mail de confirmación al finalizar tu reserva.</p> 
+                        
+                       <h6>MercadoPago</h6>
+                        <p>Costo de procesamiento MercadoPago 4,41% + IVA</p> 
+                        
+                       <h6>Tarjeta de Crédito y Débito</h6>
+                     <p>Cobro telefónico llamando al 5235-3810 Opc. 2. o solicitando un link de pago a tu asesor/a. Aceptamos Visa, Master, Cabal y Amex</p>
+                        
+                        <h6>Paypal</h6>
+                         <p>Pagá en forma segura con saldo disponible en tu cuenta de Paypal o con tarjeta de crédito.</p>   
+                    </div>
+                </div>
+
+                <div class="card-info-importante">
+                    <div>
+                       <h5>PROMOCIONES</h5> 
+                    </div>
+                    <div>                        
+                        <h6>Pre Viaje - Devolución del 50%</h6> 
+                        <p>Recibí una devolución del 50% del valor del viaje para gastar en tus vacaciones o próximos viajes. Consultá el calendario y límites del beneficio.</p>
+                        <h6>Financiación Buenas Vibras</h6>    
+                        <p>Asegurá tu lugar con una seña del 30% y podés completar el resto hasta 30 días antes de la salida. (Pasada la fecha límite de pago deberás abonar el total del paquete).</p>    
+                        <h6>AHORA 6</h6>
+                        <p>Podés pagar tu viaje en 06 cuotas fijas. Promoción válida hasta el 31/01/22. Interés: 7,27%</p> 
+                        <h6>AHORA 12</h6> 
+                        <p>Podés pagar tu viaje en 12 cuotas fijas. Promoción válida hasta el 31/01/22. Interés: 13,90%</p>  
+                        <h6>AHORA 18</h6> 
+                        <p>Podés pagar tu viaje en 18 cuotas fijas. Promoción válida hasta el 31/01/22. Interés: 20,78%</p>  
+                    </div>
+                </div>    
+            </div>  
+        </div>
+    </div>  
+</section>
+
+
+
+</main>
+
+ 
+
+    <!-- footer section  -->
+
+        <footer class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>sobre nosotros</h3>
+                    <p>Para nosotros, viajar es mucho más que visitar un nuevo destino: es hacer nuevos amigos y vivir momentos inolvidables. Por eso nos gustaría compartir esta experiencia con VOS.</p>
+                </div>
+                <div class="box padding-footer">
+                    <h3>sucursales</h3>
+                    <a href="#">Buenos Aires</a>
+                    <a href="#">Córdoba</a>
+                    <a href="#">Santa Fé</a>
+                </div>
+        
+                <div class="box">
+                    <h3>Sígueme</h3>
+                    <a href="https://www.facebook.com/montes.ariel3">facebook</a>
+                    <a href="https://www.instagram.com/arieelmontes/">instagram</a>
+                    <a href="#">Whatsapp</a>
+                    <a href="https://www.linkedin.com/in/montesariel/">linkedin</a>
+                </div>
+
+            </div>
+
+            <h1 class="credit"> creado por <span> Ariel Montes </span> | todos los derechos reservados &copy; </h1>
+
+        </footer>
+
+
+
+
+
+         <!-- custom js file link  -->
+         <script src="../js/paquetes.js"></script>
+        <script src="../js/script.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.your-class').slick({
+            infinite: true,
+            slidesToShow: 1,
+            dots: true
+        });
+    });				
+  </script>
+
+</body>
+</html>
